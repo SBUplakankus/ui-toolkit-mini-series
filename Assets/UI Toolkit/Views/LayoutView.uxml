@@ -1,0 +1,22 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/core.uss?fileID=7433441132597879392&amp;guid=1b018ee3bc055dd458bfe99e383dfc7f&amp;type=3#core"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/main-menu.uss?fileID=7433441132597879392&amp;guid=05093e838c5825d4484a4f04d92881b2&amp;type=3#main-menu"/>
+    <ui:VisualElement name="root-ctr" style="flex-grow: 1;">
+        <ui:VisualElement name="header-ctr" style="flex-grow: 1; background-color: rgb(0, 0, 0); max-height: 15%; align-content: flex-end; justify-content: flex-end; height: 15%;">
+            <ui:VisualElement name="header-bar-ctr" style="flex-grow: 1; background-color: rgb(54, 97, 107); max-height: 40%; flex-direction: row; padding-left: 10%; padding-right: 10%; justify-content: space-between;">
+                <ui:VisualElement name="menu-title-ctr" style="flex-grow: 1; background-color: rgba(156, 9, 255, 0); max-width: 40%;"/>
+                <ui:VisualElement name="username-ctr" style="flex-grow: 1; background-color: rgba(156, 9, 255, 0); max-width: 40%;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="main-ctr" style="flex-grow: 1; height: 70%; flex-direction: row; padding-left: 10%; margin-right: 0%; padding-right: 10%; justify-content: space-between;">
+            <ui:VisualElement name="left-ctr" style="flex-grow: 1; background-color: rgba(4, 75, 0, 0); max-width: 40%; justify-content: space-between;">
+                <ui:VisualElement name="menu-list-ctr" style="flex-grow: 1; background-color: rgba(0, 130, 255, 0); max-height: 55%;"/>
+                <ui:VisualElement name="motd-ctr" style="flex-grow: 1; background-color: rgba(0, 130, 255, 0); max-height: 35%;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="right-ctr" style="flex-grow: 1; max-width: 40%; justify-content: flex-end;">
+                <ui:VisualElement name="logo-ctr" style="flex-grow: 1; max-height: 45%;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="footer-ctr" style="flex-grow: 1; background-color: rgb(0, 0, 0); max-height: 15%; height: 15%;"/>
+    </ui:VisualElement>
+</ui:UXML>
