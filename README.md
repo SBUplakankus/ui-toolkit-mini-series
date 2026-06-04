@@ -8,7 +8,7 @@
 
 **Recreating Call of Duty: World at War's menu system using Unity UI Toolkit.**
 
-A tutorial series that builds the iconic WaW front-end from the ground up — learning UXML layouts, USS styling, MVVM architecture, and runtime UI Toolkit patterns in Unity 6.
+A tutorial series that builds the iconic WaW menu from the ground up by learning UXML layouts, USS styling, UI architecture in Unity 6.
 
 </div>
 
@@ -22,7 +22,7 @@ A tutorial series that builds the iconic WaW front-end from the ground up — le
 
 ## Project
 
-Built in **Unity 6000.4.8f1** using the **UI Toolkit** package. The project follows an MVVM-like pattern with UXML views, USS stylesheets, and C# controllers. A background video, logo assets, and reference screenshots of the original WaW menus are included.
+Built in **Unity 6000.4.8f1** using the **UI Toolkit** package. 
 
 <details>
 <summary><b>Project Structure</b></summary>
