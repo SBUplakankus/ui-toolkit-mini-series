@@ -18,39 +18,10 @@ A tutorial series that builds the iconic WaW menu from the ground up by learning
   <a href="https://youtu.be/bfPFBkGm83c">
     <img src="https://ytcards.demolab.com/?id=bfPFBkGm83c&title=1.+UI+Structure+%26+UI+Builder&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 1" />
   </a>
+  <a href="https://youtu.be/2B76fJllD-w">
+    <img src="https://ytcards.demolab.com/?id=2B76fJllD-w&title=2.+UI+Templates+%26+Menu+Elements&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 1" />
+  </a>
 </p>
-
-## Project
-
-Built in **Unity 6000.4.8f1** using the **UI Toolkit** package. 
-
-<details>
-<summary><b>Project Structure</b></summary>
-
-Assets/
-├── Art/
-│   ├── Images/Logo.png
-│   └── Videos/WaW_BG.mp4
-├── Scenes/Menu.unity
-├── Scripts/
-│   ├── UI/
-│   │   ├── Constants/
-│   │   ├── Factories/
-│   │   ├── Records/
-│   │   ├── Router/
-│   │   ├── Services/
-│   │   └── Views/
-│   └── Utilities/IsExternalInit.cs
-└── UI Toolkit/
-├── Styles/
-│   ├── core.uss
-│   └── main-menu.uss
-└── Views/
-└── LayoutView.uxml
-Refs/              — Reference screenshots of the original WaW menus
-
-
-</details>
 
 ---
 
