@@ -1,4 +1,5 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/UI%20Toolkit/Styles/main-menu.uss?fileID=7433441132597879392&amp;guid=05093e838c5825d4484a4f04d92881b2&amp;type=3#main-menu"/>
-    <ui:VisualElement name="divider" class="divider"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/screens.uss?fileID=7433441132597879392&amp;guid=05093e838c5825d4484a4f04d92881b2&amp;type=3#screens"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/core.uss?fileID=7433441132597879392&amp;guid=1b018ee3bc055dd458bfe99e383dfc7f&amp;type=3#core"/>
+    <ui:VisualElement name="divider" class="menu-divider"/>
 </ui:UXML>

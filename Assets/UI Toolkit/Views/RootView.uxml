@@ -1,0 +1,45 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainMenuView" src="project://database/Assets/Resources/Views/MainMenuView.uxml?fileID=9197481963319205126&amp;guid=b6524d874ba2c4c48baa852c3c790cc6&amp;type=3#MainMenuView"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/core.uss?fileID=7433441132597879392&amp;guid=1b018ee3bc055dd458bfe99e383dfc7f&amp;type=3#core"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/screens.uss?fileID=7433441132597879392&amp;guid=05093e838c5825d4484a4f04d92881b2&amp;type=3#screens"/>
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/modals.uss?fileID=7433441132597879392&amp;guid=a5a2582362e558147b7267011b455ee3&amp;type=3#modals"/>
+    <ui:VisualElement name="video-bg" class="fill-absolute" style="background-image: url(&quot;project://database/Assets/Art/Render%20Textures/Video.renderTexture?fileID=8400000&amp;guid=cbc1194be0edecc439869f84651c33bf&amp;type=2#Video&quot;); background-color: rgba(90, 115, 106, 0); -unity-background-image-tint-color: rgb(107, 127, 120); display: flex;">
+        <ui:VisualElement name="video-bg" style="flex-grow: 1;"/>
+        <ui:VisualElement name="left-vig" class="vignette-side vignette-side--left"/>
+        <ui:VisualElement name="right-vig" class="vignette-side vignette-side--right"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="root-ctr" class="view-ctr">
+        <ui:VisualElement name="hdr-ctr" class="font-arsenal-bold header-bar">
+            <ui:VisualElement name="info-ctr" class="info-bar" style="padding-left: 10.5%;">
+                <ui:VisualElement name="title-ctr" class="title-ctr">
+                    <ui:Label text="MAIN MENU" double-click-selects-word="false" name="hdr-title" class="font-arsenal-bold text-shadow-dark header-title"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="user-ctr" class="user-ctr">
+                    <ui:Label text="Signed In: Uplakankus" double-click-selects-word="false" name="username" class="font-arsenal-bold text-shadow-dark username-label"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="screen-view-ctr" class="font-dmsans-regular main-ctr screen-view-ctr">
+            <ui:Instance template="MainMenuView"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="ftr-ctr" class="footer-bar">
+            <ui:VisualElement name="ftr-content" class="ftr-content">
+                <ui:Button text="Back" name="back-btn" class="ftr-btn font-dmsans-semibold" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/DM_Sans/static/DMSans-SemiBold.ttf?fileID=12800000&amp;guid=151eb7acf28026d4f8de865b68d74863&amp;type=3#DMSans-SemiBold&quot;);"/>
+                <ui:Label text="V1.0.8" name="version" class="version-label"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="modal-ctr" picking-mode="Ignore" class="modal-ctr" style="display: flex;">
+            <ui:VisualElement name="modal-bg" class="fill-absolute modal-bg"/>
+            <ui:VisualElement name="modal-body" class="modal-body">
+                <ui:VisualElement name="modal-hdr" class="modal-hdr">
+                    <ui:Label text="NEW GAME" name="modal-hdr-lbl" class="header-title font-arsenal-bold text-shadow-dark"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="modal-view-ctr" class="modal-view-ctr"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="modal-vig-ctr" picking-mode="Ignore" class="fill-absolute modal-vig-ctr">
+                <ui:VisualElement name="left-vig" class="vignette-side vignette-side--left"/>
+                <ui:VisualElement name="right-vig" class="vignette-side vignette-side--right"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
