@@ -10,17 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f20ad7-21f4-4b74-a876-a03f0eaf71ab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ui-toolkit-mini-series/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ui-toolkit-mini-series/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Styles/core.uss" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/Styles/core.uss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Styles/main-menu.uss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Styles/main-menu.uss.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Templates/Divider.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/Templates/Divider.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Templates/MenuButton.uxml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI Toolkit/Templates/MenuButton.uxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Views/LayoutView.uxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UI Toolkit/Views/LayoutView.uxml.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="20f20ad7-21f4-4b74-a876-a03f0eaf71ab" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,6 +113,7 @@
       <workItem from="1782070424021" duration="257000" />
       <workItem from="1782074613220" duration="93000" />
       <workItem from="1782075053721" duration="99000" />
+      <workItem from="1782080811149" duration="138000" />
     </task>
     <servers />
   </component>

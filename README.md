@@ -19,7 +19,16 @@ A tutorial series that builds the iconic WaW menu from the ground up by learning
     <img src="https://ytcards.demolab.com/?id=bfPFBkGm83c&title=1.+UI+Structure+%26+UI+Builder&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 1" />
   </a>
   <a href="https://youtu.be/2B76fJllD-w">
-    <img src="https://ytcards.demolab.com/?id=2B76fJllD-w&title=2.+UI+Templates+%26+Menu+Elements&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 1" />
+    <img src="https://ytcards.demolab.com/?id=2B76fJllD-w&title=2.+UI+Templates+%26+Menu+Elements&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 2" />
+  </a>
+  <a href="https://youtu.be/gAO9FrAv73g">
+    <img src="https://ytcards.demolab.com/?id=gAO9FrAv73g&title=3.+Background+Video+%26+VFX&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 3" />
+  </a>
+  <a href="https://youtu.be/4I9gv3ZSPaY">
+    <img src="https://ytcards.demolab.com/?id=4I9gv3ZSPaY&title=4.+View+Separation+%26+Modal+Container&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 4" />
+  </a>
+  <a href="https://youtu.be/nCnsNU16w2U">
+    <img src="https://ytcards.demolab.com/?id=nCnsNU16w2U&title=5.+USS+Styles+%26+Inline+Separation&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=320&border_radius=5" alt="Episode 5" />
   </a>
 </p>
 
